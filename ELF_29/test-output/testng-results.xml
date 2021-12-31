@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[modify_Account]]>
+    </line>
+    <line>
+      <![CDATA[create_Account]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44" started-at="2021-12-17T13:05:05 IST" finished-at="2021-12-17T13:05:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44" started-at="2021-12-17T13:05:05 IST" finished-at="2021-12-17T13:05:05 IST">
+      <class name="unitTestingTool.TC_Account_001">
+        <test-method status="PASS" signature="modify_Account()[pri:-1, instance:unitTestingTool.TC_Account_001@1d16f93d]" name="modify_Account" duration-ms="8" started-at="2021-12-17T13:05:05 IST" finished-at="2021-12-17T13:05:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[modify_Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modify_Account -->
+        <test-method status="PASS" signature="create_Account()[pri:1, instance:unitTestingTool.TC_Account_001@1d16f93d]" name="create_Account" duration-ms="1" started-at="2021-12-17T13:05:05 IST" finished-at="2021-12-17T13:05:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[create_Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create_Account -->
+      </class> <!-- unitTestingTool.TC_Account_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
