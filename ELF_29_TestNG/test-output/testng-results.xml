@@ -2,77 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Login page display succesfully]]>
+      <![CDATA[From Create Account]]>
     </line>
     <line>
-      <![CDATA[Home page display succesfully]]>
-    </line>
-    <line>
-      <![CDATA[Logout Succesfully]]>
+      <![CDATA[The test  case got failed and capture screen shot successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-30T10:42:11 IST" name="Default suite" finished-at="2021-12-30T10:42:43 IST" duration-ms="32001">
+  <suite started-at="2022-01-12T12:54:08 IST" name="Default suite" finished-at="2022-01-12T12:54:35 IST" duration-ms="26442">
     <groups>
     </groups>
-    <test started-at="2021-12-30T10:42:11 IST" name="Default test" finished-at="2021-12-30T10:42:43 IST" duration-ms="32001">
-      <class name="pom_Test_Case_Vtiger.TC_005">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pom_Test_Case_Vtiger.TC_005@14555e0a]" started-at="2021-12-30T10:42:11 IST" name="launchBrowser" finished-at="2021-12-30T10:42:16 IST" duration-ms="4841" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login page display succesfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:pom_Test_Case_Vtiger.TC_005@14555e0a]" started-at="2021-12-30T10:42:16 IST" name="login" finished-at="2021-12-30T10:42:19 IST" duration-ms="2881" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Home page display succesfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="createProductWithMandatoryField()[pri:0, instance:pom_Test_Case_Vtiger.TC_005@14555e0a]" started-at="2021-12-30T10:42:19 IST" name="createProductWithMandatoryField" finished-at="2021-12-30T10:42:41 IST" duration-ms="22108" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2022-01-12T12:54:08 IST" name="Default test" finished-at="2022-01-12T12:54:35 IST" duration-ms="26442">
+      <class name="listeners.demo">
+        <test-method signature="createAcc()[pri:0, instance:listeners.demo@2cd2a21f]" started-at="2022-01-12T12:54:08 IST" name="createAcc" finished-at="2022-01-12T12:54:34 IST" duration-ms="25321" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#mouseArea_Product\ Name"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'ATUL', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dcb0ccba9ffceab50c1f732dd58c9edc, findElement {using=id, value=mouseArea_Product Name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63742/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dcb0ccba9ffceab50c1f732dd58c9edc]]>
+              <![CDATA[/ by zero]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#mouseArea_Product\ Name"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'ATUL', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dcb0ccba9ffceab50c1f732dd58c9edc, findElement {using=id, value=mouseArea_Product Name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63742/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dcb0ccba9ffceab50c1f732dd58c9edc
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
-at pom_Test_Case_Vtiger.TC_005.createProductWithMandatoryField(TC_005.java:32)
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at listeners.demo.createAcc(demo.java:21)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,22 +51,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createProductWithMandatoryField -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:pom_Test_Case_Vtiger.TC_005@14555e0a]" started-at="2021-12-30T10:42:41 IST" name="logout" finished-at="2021-12-30T10:42:43 IST" duration-ms="1865" status="PASS">
+          </exception> <!-- java.lang.ArithmeticException -->
           <reporter-output>
             <line>
-              <![CDATA[Logout Succesfully]]>
+              <![CDATA[From Create Account]]>
+            </line>
+            <line>
+              <![CDATA[The test  case got failed and capture screen shot successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pom_Test_Case_Vtiger.TC_005@14555e0a]" started-at="2021-12-30T10:42:43 IST" name="closeBrowser" finished-at="2021-12-30T10:42:43 IST" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- pom_Test_Case_Vtiger.TC_005 -->
+        </test-method> <!-- createAcc -->
+      </class> <!-- listeners.demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
